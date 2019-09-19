@@ -1,5 +1,6 @@
 # Arduino-Code
-A collection of coded projects from high school and the C-STEM course
+A collection of coded projects from my high school's second year of the coding and robotics pathway, and the C-STEM course
+Each program is within its own branch in this repository
 
 ## trafficLight.ch
 - Lights up a red LED, then changes to green and yellow with delays after a button is pressed
