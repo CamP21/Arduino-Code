@@ -1,5 +1,5 @@
 # Arduino-Code
-Coded projects for Arduino Uno
+A collection of coded projects from high school and the C-STEM course
 
 ## trafficLight.ch
 - Lights up a red LED, then changes to green and yellow with delays after a button is pressed
