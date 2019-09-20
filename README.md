@@ -16,3 +16,6 @@ Each program is within its own branch in this repository.
 
 ## 1-7.ino
 - Lights up LEDs based on the reading of a SPDT switch, photoresistor, and button
+
+## LEDLightShow.ino
+- LEDs light up to match with 1.15 minutes of "Take On Me" by a-ha
