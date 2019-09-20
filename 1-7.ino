@@ -46,29 +46,18 @@ void loop(){
 }
 
 void photoresistor(){
-   int indexx;
-    for(indexx = 0; indexx <= 5; indexx++){
-      digitalWrite(ledPins[indexx], HIGH);
-      digitalWrite(ledPins[indexx] + 1, HIGH);
-      indexx = indexx + 1;
-        if(indexx==5){
-          digitalWrite(ledPins[indexx], HIGH);
-          digitalWrite(ledPins[indexx] + 2, HIGH);
-          //digitalWrite(10, HIGH); //since we can’t plug a pin into pin 9, this step must be added
-        }
-      delay(500);
-    }
-    for(indexx = 0; indexx <= 5; indexx++){
-      digitalWrite(ledPins[indexx], LOW);
-      delay(500);
-    }
-    delay(500);
     int index;
+    for(index = 0; index <= 5; index++){
+      digitalWrite(ledPins[index], HIGH);
+      digitalWrite(ledPins[index] + 1, HIGH);
+      index = index + 1;
+      delay(500);
+    }
     for(index = 0; index <= 5; index++){
       digitalWrite(ledPins[index], LOW);
       delay(500);
     }
-  }
+ }
 
 
 //in this void, yellow will turn on, then red, then green
