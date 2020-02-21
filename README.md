@@ -19,3 +19,6 @@ Each program is within its own branch in this repository.
 
 ## LEDLightShow.ino
 - LEDs light up to match with 1.15 minutes of "Take On Me" by a-ha
+
+## QTICourse.ino
+- Parallax ShieldBot navigates a course
